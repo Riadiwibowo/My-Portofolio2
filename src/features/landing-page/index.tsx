@@ -1,8 +1,7 @@
-import React, { useState } from "react";
-
 import EducationCard from "../../components/education-card";
 import ProjectCard from "../../components/project-card";
 import avatar from "../../assets/avatar.png";
+import  { useState } from "react";
 
 interface Project {
   name: string;
